@@ -10,7 +10,7 @@ from random import randint
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('yellow.ui', self)  
+        uic.loadUi('UI.ui', self)  
         self.do_paint = False
         self.pushButton.clicked.connect(self.run)
     
